@@ -33,6 +33,7 @@ The core of this project involves integrating Large Language Models (LLMs) with 
     * **Session State:** Streamlit's `session_state` is used to cache loaded models (`embeddings`, `llm`, `rag_chain`) to prevent re-loading on user interactions, ensuring a smooth experience.
     * **PDF Processing Function:** A `process_pdf` function handles uploading, loading, semantic chunking, vector database creation, and RAG chain building. It also cleans up temporary files.
     * **Interface Layout:** The Streamlit app includes sections for PDF upload, model loading status, and a question-answering input field.
+<img width="1848" height="928" alt="image" src="https://github.com/user-attachments/assets/93551636-8940-4020-8fdb-006f54fbe5c1" />
 
 ## How to Use
 
